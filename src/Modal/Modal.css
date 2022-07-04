@@ -1,0 +1,75 @@
+/* .modalBackground{
+    width: 60vw;
+    height: 60vh;
+    background-color: rgba(228, 232, 232, 0.868);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.modalContainer{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgb(184, 18, 18);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    
+    
+}
+#clbtn{
+    background-color: red;
+    width: 3vw;
+    justify-content: flex-end;
+    
+}
+.modalContainer .title{
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+.titleclbtn{
+    display: flex;
+    justify-content: flex-end;
+}
+.titlebtn button{
+    background-color: blue;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* .modalContainer .cl1{
+    flex: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rcm;
+    text-align: center;
+    color: black;
+
+
+} */
+.modalContainer .footer button{
+    width: 150px;
+    height: 45px;
+    margin:10px;
+    background-color: blueviolet;
+    color: black;
+}
+#cancelbtn{
+    background-color: red;
+}
+.btn{
+    background-color: rgb(44, 103, 192);
+
+    text-align: center;
+}
+
+body{
+    
+    background-color:  rgba(228, 232, 232, 0.868);
+    text-align: center;
+  
+}
